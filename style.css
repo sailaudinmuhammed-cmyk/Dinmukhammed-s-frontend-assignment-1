@@ -7,19 +7,70 @@ body {
     background-image: url("deltarune.frame.png");
     background-size: 100% 100%;
     background-attachment: relative;
-    
-    font-family: "8-bit Operator JVE";
+
+    font-family: "8-bit Operator JVE", monospace;
     font-size: 20px;
     font-weight: bold;
     color: white;
 }
 
-.page {
-    width: 70%;
-    min-height: 50em;
-    margin: 2em auto 0 auto;
+.header {
+    background-color: rgb(171, 7, 171);
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header h2 {
+    margin: 10px;
+}
+
+.navigation {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.navigation a:hover {
+    color: yellow;
+}
+
+
+/* Sidebar */
+
+.sidebar {
+    float: left;
+    width: 20%;
+    padding: 20px;
     box-sizing: border-box;
-    padding: 2em;
+    background-color: #222;
+}
+
+.sidebar a {
+    color: white;
+}
+
+.sidebar a:hover {
+    color: yellow;
+}
+
+
+/* Main content */
+
+.content {
+    float: right;
+    width: 75%;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
 img {
@@ -29,12 +80,18 @@ img {
     max-width: 100%;
 }
 
-.header {
-    border: 0;
-    padding: 0.5em;
-    text-align: left;
-    margin-top: auto;
-    width: 100%;
-    background-color: rgb(171, 7, 171);
-    position: fixed;
+a {
+    color: #d98cff;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.footer {
+    clear: both;
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
