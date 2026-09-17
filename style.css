@@ -1,4 +1,40 @@
-body {background-color:bisque;
-    font-family:sans-serif;
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    background-image: url("deltarune.frame.png");
+    background-size: 100% 100%;
+    background-attachment: relative;
+    
+    font-family: "8-bit Operator JVE";
     font-size: 20px;
-    }
+    font-weight: bold;
+    color: white;
+}
+
+.page {
+    width: 70%;
+    min-height: 50em;
+    margin: 2em auto 0 auto;
+    box-sizing: border-box;
+    padding: 2em;
+}
+
+img {
+    border: 5px solid black;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.header {
+    border: 0;
+    padding: 0.5em;
+    text-align: left;
+    margin-top: auto;
+    width: 100%;
+    background-color: rgb(171, 7, 171);
+    position: fixed;
+}
